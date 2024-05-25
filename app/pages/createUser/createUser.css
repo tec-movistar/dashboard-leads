@@ -1,0 +1,27 @@
+.createUserContainer{
+    display: flex;
+}
+
+.createUserForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputFormCreateUser{
+    margin: 10px;
+    height: 35px;
+    width: 200px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    text-indent: 10px;
+}
+
+.pageCreateUserContainer{
+    padding: 80px 40px 40px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

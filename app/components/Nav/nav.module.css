@@ -1,0 +1,75 @@
+.navContainer{
+    width: 15vw;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.logoNav{
+    height: 55px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+}
+
+.titleHeaderNav{
+    color: #fff;
+    margin: 0;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.itemNavContainer{
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    background: #efefef;
+    transition: background 0.3s;
+    cursor: pointer;
+
+}
+
+.itemNavContainer:hover{
+    background: #9c9c9c;
+}
+.itemNavLabel{
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.iconNav{
+    margin-left: 10px;
+}
+
+.itemNavContainerCloseSesion{
+    margin: 10px;
+    height: 40px;
+    width: 13.7vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    background: #ffbaba;
+    transition: background 0.3s;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+}
+
+.itemNavContainerCloseSesion:hover{
+    background: #ff7b7b;
+}
