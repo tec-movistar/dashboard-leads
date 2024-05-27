@@ -7,11 +7,12 @@ import JwtService from "../../utils/jwtService";
 import { getToken } from "../../utils/helpers";
 
 const navConfig: any = [
-  // {
-  //   label: "Home",
-  //   href: "/home",
-  //   icon: <Home className={styles.iconNav} />,
-  // },  
+  {
+    label: "Chat",
+    href: "/chat/0/",
+    icon: <Message className={styles.iconNav} />,
+    rolePermission: JwtService.isAsesor(getToken()) || JwtService.isAdministrator(getToken())
+  },
   {
     label: "Leads de venta",
     href: "/leads",

@@ -1,6 +1,7 @@
 /* importa el createUser.css */
 @import url('./createUser/createUser.css');
 @import url('./users/users.css');
+@import url('./chat/chat.css');
 
 
 *{
