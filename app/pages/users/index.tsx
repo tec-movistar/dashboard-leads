@@ -27,11 +27,11 @@ function Users() {
     }
 
     const getRole = (role: number) => {
-        if (role === 1) {
+        if (role === 2) {
             return 'Administrador';
         }
 
-        if (role === 2) {
+        if (role === 1) {
             return 'Asesor';
         }
 
