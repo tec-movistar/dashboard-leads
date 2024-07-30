@@ -9,7 +9,7 @@ import { getToken } from "../../utils/helpers";
 const navConfig: any = [
   {
     label: "Chat",
-    href: "/chat/0/",
+    href: "/chat/0/no",
     icon: <Message className={styles.iconNav} />,
     rolePermission: JwtService.isAsesor(getToken()) || JwtService.isAdministrator(getToken())
   },
